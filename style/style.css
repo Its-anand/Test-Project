@@ -1,0 +1,692 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-color: #ECEFF6;
+}
+/*-------------------------------------Advertisement Section: It is the section above header*/
+.advertisementSection{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #2944E9;
+}
+/*Advertisement note*/
+.advertisementSection p{
+    font-size: small;
+}
+/*Social media Icons*/
+.allSocialMediaContainer{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+}
+.socialMediaContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.socialMediaContainer img{
+    width: 12px;
+    height: auto;
+}
+#facebook{
+    width: 100%;
+}
+/*-------------------------------------------------------Header section*/
+header{
+    width: 100%;
+    height: 4rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigationContainer{
+    width: 79.2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: stretch;
+}
+.nav{
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: small;
+    font-weight: bold;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ffffff;
+}
+.nav:hover{
+    border-bottom: 2px solid #2944E9;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+#logoIcon{
+    width: 20px;
+    height: auto;
+}
+#logoText{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 0.2rem;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+/*Account Section*/
+.accountSection button{
+    width: 6rem;
+    height: 1.6rem;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+.loginButton{
+    border:1px solid #2944E9;
+    color: #2944E9;
+    background-color: transparent;
+    margin-right: 1rem;
+}
+.registerButton{
+    background-color: #2944E9;
+    color: #fff;
+    border: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 1.2rem;
+}
+.contentContainer{
+    width: 79.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 100%;
+}
+/*--------------------------------------------Health and beauty banner section*/
+.HealthAndBeautyBanner{
+    width: 100%;
+    height: 9rem;
+    border-radius: 10px;
+    background-color: #e3e6fe;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.HealthAndBeautyBlock{
+    position: absolute;
+    left: 3rem;
+    z-index: 1;
+}
+.HealthAndBeautyBlock h2{
+    margin: 1.5rem 0 0.3rem 0;
+    font-size: 1.3rem;
+}
+.HealthAndBeautyBlock p{
+    font-size: 0.7rem;
+    margin: 0.3rem 0 1.5rem 0;
+}
+.HealthAndBeautyBlock a{
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.4rem 0.5rem;
+    font-weight: bold;
+    color: #154BF2;
+
+}
+.HealthAndBeautyImage{
+    height: 9rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 0px;
+}
+/*--------------------------------------------Dropdown menu section*/
+
+.dropdownMenuBlocktSectionContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdownMenuBlocktSectionContainer section{
+    width: 48%;
+}
+.dropdownMenuBlock{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #e3e6fe;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.dropdownMenu{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 1px;
+    margin-bottom: 0.2rem;
+}
+.dropdownMenuHeading{
+    height: 1.6rem;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.activeMenu{
+    color: #154BF2;
+}
+.dropdownMenuHeading p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.dropdownMenuHeading b{
+    font-size: 1rem;
+    color: #154BF2;
+}
+.dropdownMenu .dropdownMenuDescription{
+    margin: 0.3rem 0rem 0.3rem 2.8rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+}
+.activeDownArrow{
+    transform: rotate(180deg);
+}
+/*--------------------------------------------Growth banner section*/
+.growthBanner{
+    width: 100%;
+    height: 9rem;
+    border-radius: 10px;
+    background-color: #154BF2;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.growthBanner div{
+    text-align: center;
+    background-color: #3E58EB;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+.growthBanner div p {
+    margin: 0px;
+ }
+ .growthBanner section:last-child{
+    text-align: center;
+    font-weight: bold;
+ }
+.growthBanner div p:first-child {
+   font-size: 2rem;
+   font-weight: bold;
+   
+}
+.growthBanner section:last-child a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+/*--------------------------------------------Article section*/
+article{
+    width: 100%;
+    border-radius: 9px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: #011844;
+}
+.articleSectionHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.articleSectionHead a{
+    text-decoration: none;
+    color: #397CFF;
+    font-size: small;
+    font-weight: bold;
+    background-color: #3c6dff22;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.tagsContainer{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.tag{
+    background-color: #3c6dff22;
+    padding: 6px 8px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.activeTag{
+    background-color: #154BF2;
+    color: #fff;
+}
+.articlePostContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.articlePost {  display: grid;
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 1fr 2.5rem;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "articlePostImageContainer articlePostDescription ."
+      "articlePostPriceAndButtonContainer articlePostPriceAndButtonContainer .";
+      width: 49%;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  .articlePost:hover{
+    outline: 2px solid #154BF2;
+  }
+  .articlePostImageContainer { 
+    grid-area: articlePostImageContainer;
+    border-radius: 10px;
+}
+  
+  .articlePostDescription { 
+    grid-area: articlePostDescription; 
+    padding-left: 1rem;
+
+}
+  
+  .articlePostPriceAndButtonContainer { 
+    grid-area: articlePostPriceAndButtonContainer; 
+
+
+}
+  
+  .articlePostImage{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .articlePostTitle{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .articlePostPublisher{
+    font-size: 0.75rem;
+    margin: 0.4rem 0;
+  }
+  .articleImpactFactor, b{
+    font-size: 0.8rem;
+  }
+  .articlePostPriceAndButton {  display: grid;
+    grid-template-columns: 0.49fr 1fr;
+    grid-template-rows: 2.5rem;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "articlePostPrice articlePostButtons .";
+      border-top: 1px solid rgb(232, 232, 232);
+  }
+  
+  .articlePostPrice { 
+    grid-area: articlePostPrice; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+  
+  .articlePostButtons { 
+    grid-area: articlePostButtons;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+  .articleImpactFactor{
+    padding: 0.1rem 0.2rem;
+    background-color: #F18410;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 4px;
+  }
+.articlePost button{
+    cursor: pointer;
+    margin: 2px;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 4px 5px;
+    color: #154BF2;
+    font-weight: bold;
+}
+.articlePost button:hover{
+    background-color: #154cf237;
+}
+.articlePostTags button{
+    border: 1px solid #154BF2;
+}
+.articleOrgTags button{
+    color: #121212;
+    background-color: #E9E9E9;
+}
+.articleOrgTags button:hover{
+    color: #121212;
+    background-color: #d6d6d6;
+}
+.articlePostPrice b{
+    font-size: 1rem;
+}
+.articleProcessingCharge{
+    color: #fff;
+    background-color: #3B3A3D;
+    padding: 2px 3px;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+.articlePostButtons button{
+    padding: 0.24rem 1rem;
+    font-size: 0.85rem;
+    border: 1px solid #154BF2;
+    background-color: #ffffff;
+    color: #154BF2;
+}
+
+.articlePostButtons .articleSubmitButton{
+    border: 1px solid #154BF2;
+    background-color: #154BF2;
+    color: #fff;
+}
+.articlePostButtons .articleSubmitButton:hover{
+    border: 1px solid #0033cb;
+    background-color: #0033cb;
+}
+
+.pagination{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pagination button{
+    border: none;
+    background-color: transparent;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    padding: 0.4rem 0.7rem;
+    cursor: pointer;
+
+}
+.pagination button:hover{
+    background-color: #0036d6;
+    margin: 0 0.5rem;
+    color: #fff;
+    border-radius: 4px;
+
+}
+.pagination .activePage{
+    background-color: #0036d6;
+    margin: 0 0.5rem;
+    color: #fff;
+    border-radius: 4px;
+}
+/*--------------------------------------------FAQ Section*/
+.FAQsection{
+    width: 100%;
+    border-radius: 9px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: #011844;
+    
+}
+.FaqSectionDropdownMenu{
+    padding: 1rem;
+    background-color: #F6F7FB;
+    margin-bottom: 1rem;
+}
+.FaqSectionDropdownMenu b {
+    color: #000;
+    font-size: 1.3rem;
+}
+.FaqSectionDropdownMenu p {
+    margin-left: 1rem;
+}
+
+/*--------------------------------------------aside*/
+
+aside{
+    width: 28rem;
+    height: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+aside .asideSections{
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+aside .asideSectionHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+aside .newsLatter p{
+    font-size: small;
+    margin-top: 0px;
+
+}
+aside .asideSectionHeading h3{
+    margin-bottom: 1rem;
+}
+.asideSections form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.asideSections form input{
+    width: 100%;
+    padding-left: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #979ba7;
+}
+.asideSections form input::placeholder{
+    font-size: 0.7rem;
+    color:#979ba7;
+
+}
+.asideSections form button{
+    margin-left: 1rem;
+    background-color: #2845E9;
+    border: none;
+    padding: 8px 1rem;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+aside .seeAllButton{
+        text-decoration: none;
+        color: #397CFF;
+        font-size: small;
+        font-weight: bold;
+        background-color: #3c6dff22;
+        border-radius: 8px;
+        padding: 6px 10px;
+}
+.featurePost {  
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+    grid-template-rows: 25px 25px ;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "featureImage featureTitle- ."
+      "featureImage featureRating .";
+    margin-bottom: 1rem;
+  }
+  
+  .featureImage { 
+    grid-area: featureImage;
+    display: flex;
+    align-items: center;
+
+ }
+  
+  .featureTitle- { 
+    grid-area: featureTitle-;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+ }
+  
+  .featureRating { 
+    grid-area: featureRating;
+    display: flex;
+    align-items: flex-start;
+    font-size: small;
+    margin-left: 0.5rem;
+
+ }
+ .featureImage img{
+    width: 50px;
+ }
+ 
+
+
+
+ 
+ .authorPost {  
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+    grid-template-rows: 25px 25px ;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "featureImage featureTitle- ."
+      "featureImage featureRating .";
+    margin-bottom: 1rem;
+  }
+  
+  .authorImage { 
+    grid-area: featureImage;
+    display: flex;
+    align-items: center;
+ }
+  
+  .authorTitle- { 
+    grid-area: featureTitle-;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+ }
+  
+  .authorRating { 
+    grid-area: featureRating;
+    display: flex;
+    align-items: flex-start;
+    font-size: small;
+    margin-left: 0.5rem;
+
+ }
+ .authorImage img{
+    width: 50px;
+    border-radius: 50%;
+ }
+.news .newsDate{
+    font-size: small;
+}
+.news{
+    margin-bottom: 2rem;
+}
+.newsHeading b{
+    font-weight: bolder;
+}
+/*--------------------------------------------Footer*/
+footer{
+    width: 100%;
+    height: 20rem;
+    background-color: #0A152B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.footerLogo{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.footerLogo span{
+    color: #0033cb;
+}
+.footerSocialMediaIcon a img{
+    margin: 0 0.5rem;
+}
+.footerSocialMediaIcon a img:nth-child(1){
+    height: 24px;
+}
+.footerSocialMediaIcon a img:nth-child(2){
+    width: 27Px;
+}
+.footerSocialMediaIcon a img:nth-child(3){
+    height: 24px;
+}
+.footerSocialMediaIcon a img:nth-child(4){
+    height: 24px;
+}
+.footerSocialMediaIcon a img:nth-child(5){
+    width: 18px;
+}
+.footerLinks a{
+    margin: 0 0.6rem;
+    text-decoration: none;
+    color: #fff;
+}
